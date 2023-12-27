@@ -1,9 +1,9 @@
 package main
 
 import (
-	DB "dbComparisonGo/database"
+	DB "dbComparisonGo/controller"
 )
 
 func main() {
-	DB.ConnectDB("dev")
+	DB.GenerateModel()
 }
